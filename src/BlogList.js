@@ -1,6 +1,4 @@
-const BlogList = (props) => {
-  const blogs = props.blogs;
-  
+const BlogList = ({ blogs, title, handleDelete }) => {
   return (
     <div className="blog-list">
       {blogs.map((blog) => (
